@@ -68,6 +68,8 @@ class Calculator {
         if (this.operation != null) {
             this.previousValueTextElement.innerText = 
             `${this.getDisplayNumber(this.previousValue)} ${this.operation}`
+        } else {
+            this.previousValueTextElement.innerText = ''
         }
     }
 }
